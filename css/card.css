@@ -1,7 +1,38 @@
 .card {
-  background-color: teal;
-  border: 10px;
+  background-color: lightgreen;
   border-radius: 20px;
   margin: 1rem;
-  padding: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__heading {
+  font-size: 1rem;
+}
+
+.card__question {
+  font-size: 1.5rem;
+}
+
+.button {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button--show-answer {
+  background-color: lightseagreen;
+  border: 2px dotted black;
+  padding: 1rem;
+}
+
+.button--answer {
+  border: 2px solid black;
 }
