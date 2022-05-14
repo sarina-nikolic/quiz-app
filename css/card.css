@@ -8,6 +8,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.card__bookmark {
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 1rem;
+  top: -1rem;
 }
 
 .card__heading {
