@@ -32,20 +32,27 @@
 }
 
 .button {
-  font-size: 1rem;
-  border-radius: 5px;
-  padding: 0.2rem;
-  margin: 0.2rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.button--show-answer {
   background-color: lightseagreen;
   border: 2px dotted black;
   padding: 1rem;
+  border-radius: 2rem;
 }
 
-.button--answer {
-  border: 2px solid black;
+.tags {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 0.2rem;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.show-answer {
+  display: none;
+}
+
+.show-answer--active {
+  display: block;
 }

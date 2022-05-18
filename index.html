@@ -30,16 +30,23 @@
           <!--just use bem-->
         </span>
         <h2 class="card__heading">Question:</h2>
+
         <p class="card__question">Do you like coding?</p>
-        <button class="button button--show-answer" data-js="button">
-          Show answer
-        </button>
-        <section class="tags">
-          <button class="tags tags--answer">Yes</button>
-          <button class="tags tags--answer">No</button>
-          <button class="tags tags--answer">Maybe</button>
-          <button class="tags tags--answer">Sometimes</button>
-        </section>
+
+        <button class="button" data-js="button">Show answer</button>
+
+        <div class="show-answer" data-js="show-answer-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div>
+          <ul class="tags" role="list">
+            <li>Yes</li>
+            <li>No</li>
+            <li>Maybe</li>
+            <li>Sometimes</li>
+          </ul>
+        </div>
       </section>
 
       <section class="card">
