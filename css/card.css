@@ -1,5 +1,6 @@
 .card {
   background-color: lightgreen;
+  border: 1px solid grey;
   border-radius: 20px;
   margin: 1rem;
   padding: 1rem;
@@ -20,7 +21,7 @@
   justify-content: center;
   position: absolute;
   right: 1rem;
-  top: -1rem;
+  top: -1.1rem;
 }
 
 .card__heading {
@@ -33,7 +34,7 @@
 
 .button {
   background-color: lightseagreen;
-  border: 2px dotted black;
+  border: 2px dotted grey;
   padding: 1rem;
   border-radius: 2rem;
 }
@@ -47,6 +48,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 2rem;
+  border: 1px solid grey;
 }
 
 .show-answer {
