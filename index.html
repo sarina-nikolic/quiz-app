@@ -25,18 +25,21 @@
 
     <main>
       <section class="card">
-        <span class="card__bookmark">
-          <img class="nav__item" src="icons/bookmark.png" alt="Bookmark" />
-          <!--just use bem-->
-        </span>
+        <img
+          class="card__bookmark"
+          src="./icons/bookmark-regular.svg"
+          alt="Bookmark"
+        />
+
         <h2 class="card__heading">Question:</h2>
 
         <p class="card__question">Do you like coding?</p>
 
-        <button class="button" data-js="button">Show answer</button>
+        <button class="button--show" data-js="toggle-answer-button">
+          Show answer
+        </button>
 
         <div class="show-answer" data-js="show-answer-text">
-          <button class="" data-js="button-hide">hide</button>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
 

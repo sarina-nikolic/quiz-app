@@ -1,14 +1,26 @@
 console.clear();
 
-const showAnswerButton = document.querySelector('[data-js="button"]');
-// TODO: get hidden answer object
+const toggleAnswerButton = document.querySelector(
+  '[data-js="toggle-answer-button"]'
+);
+console.log(toggleAnswerButton);
+console.log(toggleAnswerButton.innerText);
+
 const showAnswerText = document.querySelector('[data-js="show-answer-text"]');
-const hideButton = document.querySelector('[data-js="button-hide"]');
 
-showAnswerButton.addEventListener("click", () => {
-  showAnswerText.classList.add("show-answer--active");
-});
+let answerVisible = false;
 
-hideButton.addEventListener("click", () => {
-  showAnswerText.classList.remove("show-answer--active");
+toggleAnswerButton.addEventListener("click", () => {
+  if (answerVisible) {
+    showAnswerText.classList.remove("show-answer--active");
+    answerVisible = false;
+    toggleAnswerButton.innerText = "Show answer";
+  } else {
+    showAnswerText.classList.add("show-answer--active");
+    answerVisible = true;
+    toggleAnswerButton.innerText = "Hide answer";
+  }
+  console.log(
+    `answerVisible = ${answerVisible} ; toggleAnswerButton text = ${toggleAnswerButton.innerText}`
+  );
 });
