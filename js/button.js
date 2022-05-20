@@ -1,4 +1,4 @@
-console.clear();
+export function button() {}
 
 const toggleAnswerButton = document.querySelector(
   '[data-js="toggle-answer-button"]'
