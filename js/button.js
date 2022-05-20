@@ -1,4 +1,6 @@
-export function button() {}
+export function button() {
+  alert('hello');
+}
 
 const toggleAnswerButton = document.querySelector(
   '[data-js="toggle-answer-button"]'
