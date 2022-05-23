@@ -1,3 +1,3 @@
-import { button } from './js/button.js';
+import { configureToggleableAnswerButton } from './js/button.js';
 
-button();
+configureToggleableAnswerButton();
