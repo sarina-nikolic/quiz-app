@@ -1,5 +1,3 @@
-import { button } from './js/button';
-import { bookmark } from './js/bookmark';
+import { button } from './js/button.js';
 
 button();
-alert('hello');
