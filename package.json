@@ -2,7 +2,6 @@
   "name": "quiz-app",
   "version": "1.0.0",
   "description": "A quiz app",
-  "main": "button.js",
   "scripts": {
     "test": "npm run htmlhint && npm run prettier:write",
     "htmlhint": "npx htmlhint \"**/*.html\"",

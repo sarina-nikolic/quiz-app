@@ -27,6 +27,97 @@
       <section class="card">
         <img
           class="card__bookmark"
+          data-js="bookmark-tag"
+          src="./icons/bookmark-regular.svg"
+          alt="Bookmark"
+        />
+
+        <h2 class="card__heading">Question:</h2>
+
+        <p class="card__question">Do you like coding?</p>
+
+        <button class="button--show" data-js="toggle-answer-button">
+          Show answer
+        </button>
+
+        <div class="show-answer" data-js="show-answer-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div>
+          <ul class="tags" role="list">
+            <li>Yes</li>
+            <li>No</li>
+            <li>Maybe</li>
+            <li>Sometimes</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <img
+          class="card__bookmark"
+          data-js="bookmark-tag"
+          src="./icons/bookmark-regular.svg"
+          alt="Bookmark"
+        />
+
+        <h2 class="card__heading">Question:</h2>
+
+        <p class="card__question">Do you like coding?</p>
+
+        <button class="button--show" data-js="toggle-answer-button">
+          Show answer
+        </button>
+
+        <div class="show-answer" data-js="show-answer-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div>
+          <ul class="tags" role="list">
+            <li>Yes</li>
+            <li>No</li>
+            <li>Maybe</li>
+            <li>Sometimes</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <img
+          class="card__bookmark"
+          data-js="bookmark-tag"
+          src="./icons/bookmark-regular.svg"
+          alt="Bookmark"
+        />
+
+        <h2 class="card__heading">Question:</h2>
+
+        <p class="card__question">Do you like coding?</p>
+
+        <button class="button--show" data-js="toggle-answer-button">
+          Show answer
+        </button>
+
+        <div class="show-answer" data-js="show-answer-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+        <div>
+          <ul class="tags" role="list">
+            <li>Yes</li>
+            <li>No</li>
+            <li>Maybe</li>
+            <li>Sometimes</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="card">
+        <img
+          class="card__bookmark"
+          data-js="toggle-bookmark-tag"
           src="./icons/bookmark-regular.svg"
           alt="Bookmark"
         />
@@ -54,24 +145,24 @@
       </section>
     </main>
 
-    <footer>
-      <nav class="navigation">
-        <a href="#">
-          <img class="nav__item" src="icons/zuhause.png" alt="Home" />
-        </a>
+    <nav class="navigation">
+      <button class="nav__button" data-js="nav-homepage">
+        <img class="nav__item" src="icons/zuhause.png" alt="Home" />
+      </button>
 
-        <a href="#">
-          <img class="nav__item" src="icons/bookmark.png" alt="Bookmark" />
-        </a>
-        <a href="#">
-          <img class="nav__item" src="icons/add.png" alt="Add" />
-        </a>
+      <button class="nav__button" data-js="nav-bookmark">
+        <img class="nav__item" src="icons/bookmark.png" alt="Bookmark" />
+      </button>
 
-        <a href="#">
-          <img class="nav__item" src="icons/user.png" alt="Profile" />
-        </a>
-      </nav>
-    </footer>
-    <script type="module" src="./index.js"></script>
+      <button class="nav__button" data-js="nav-create">
+        <img class="nav__item" src="icons/add.png" alt="Create" />
+      </button>
+
+      <button class="nav__button" data-js="nav-profile">
+        <img class="nav__item" src="icons/user.png" alt="Profile" />
+      </button>
+    </nav>
+
+    <script type="module" src="js/button.js"></script>
   </body>
 </html>
