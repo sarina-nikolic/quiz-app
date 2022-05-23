@@ -14,23 +14,26 @@
 }
 
 .card__bookmark {
+  background-color: transparent;
+  border: none;
   width: 40px;
   height: 40px;
   font-size: 30px;
   position: absolute;
   right: 1rem;
   top: -1.1rem;
-  filter: invert(100%);
+  cursor: pointer;
+  fill: var(--fourth-color);
 }
 
 .card__bookmark--active {
   width: 40px;
   height: 40px;
   font-size: 30px;
-  position: absolute;
   right: 1rem;
   top: -1.1rem;
-  filter: invert(1%);
+  cursor: pointer;
+  fill: var(--primary-color);
 }
 
 .card__heading {
