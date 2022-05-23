@@ -12,7 +12,7 @@ const showAnswerText = document.querySelector('[data-js="show-answer-text"]');
 
 let answerVisible = false;
 
-toggleAnswerButton.addEventListener('click', () => {
+/*toggleAnswerButton.addEventListener('click', () => {
   if (answerVisible) {
     showAnswerText.classList.remove('show-answer--active');
     answerVisible = false;
@@ -25,4 +25,4 @@ toggleAnswerButton.addEventListener('click', () => {
   console.log(
     `answerVisible = ${answerVisible} ; toggleAnswerButton text = ${toggleAnswerButton.innerText}`
   );
-});
+});*/
